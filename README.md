@@ -9,7 +9,7 @@ What this mod currently does:
 
 My Vision:
 
-I want this mod to grow into a fully customizable and interactive "hands off tutorial", with evetns popping up to give the player advice on how they might be able to direct Canada without railroading them.
+I want this mod to grow into a fully customizable and interactive "hands off tutorial", with events popping up to give the player advice on how they might be able to direct Canada without railroading them.
 
 Installing this tutorial mod:
 
