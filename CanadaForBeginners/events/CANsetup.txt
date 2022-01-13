@@ -1,0 +1,46 @@
+country_event = {
+	id = 44399
+	title = "EVTNAME44399"
+	desc = "EVTDESC44399"
+	picture = "Administration"
+	
+	trigger = {
+		ai = no
+		NOT = {
+			exists = CAN
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "EVT44399OPT"
+		ENG = {
+			release = CAN
+		}
+		change_tag_no_core_switch = CAN
+		20 = {
+			secede_province = CAN
+		}
+		6 = {
+			secede_province = CAN
+		}
+		249 = {
+			remove_core = CAN
+		}
+		250 = {
+			remove_core = CAN
+			secede_province = USA
+		}
+		CAN = {
+			relation = {
+				who = USA
+				value = 200
+			}
+			relation = {
+				who = RUS
+				value = 200
+			}
+		}
+	}
+}
